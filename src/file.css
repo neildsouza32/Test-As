@@ -1,0 +1,40 @@
+/* src/PokeAPI.css */
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .pokemon-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px;
+    text-align: center;
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .pokemon-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .pokemon-card img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .pokemon-card h3 {
+    margin: 10px 0 0 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+
+  .search-bar {
+    margin-left: 20px; /* Adjust this value to move the search bar further right */
+    display: block;
+    margin-bottom: 20px;
+  }
